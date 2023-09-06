@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import './Header.css';
 
 const Header = () => {
-    // TOGGLE MENU
+        // TOGGLE MENU
     const[Toggle, showMenu] = useState(false);
 
   return (
     <header className='header'>
-        <nav className="nav container">
+        <nav className="nav container navbar navbar-default navbar-fixed-top">
             <a href="index.html" className="nav__logo">Collins.dev
             </a>
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
