@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--container-color);
+    background-color: var(--color-primary);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -17,7 +17,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    color: var(--container-color);
 }
 
 .footer__list {
@@ -43,7 +43,7 @@
 }
 
 .footer__social-link:hover {
-    background-color: var(--title-color-dark);
+    background-color: var(--color-primary);
 }
 
 .footer__social-icon {
@@ -64,7 +64,6 @@
         padding: 0.25rem;
         border-radius: 0.25rem;
         font-size: 1rem;
-
     }
   }
  

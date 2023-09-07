@@ -1,70 +1,72 @@
 import React from 'react';
-import './portfolio.css'
+import './portfolio.css';
+import IMG2 from '../../assets/work2.jpg';
+import IMG3 from '../../assets/work3.jpg';
+import IMG4 from '../../assets/work4.jpg';
+import IMG5 from '../../assets/work5.jpg';
 
 const Portfolio = () => {
   return (
-    <section className="portfolio">
-        <p className="portfolio__header">Browse my previous Work</p>
-        <h1 className="portfolio__title">Projects</h1>
+    <section className="portfolio section">
+        <h2 className="section__title">Projects</h2>
+        <span className="section__subtitle">Browse my previous Work</span>
 
-        <div className="portfolio__container">
-            <div className="portfolio__about-container">
-                <div className="portfolio__container-details portfolio__color-container">
-                    <div className="portfolio__img-container">
-                        <img src="../../assets/work1.jpg" alt="" className='portfolio__img'/>
-                    </div>
-                    <h2 className="portfolio__subtitle portfolio__title">MokomShop</h2>
-                    <div className="portfolio__button">
-                        <button className="btn portfolio-btn"
-                        onClick="location.href='https://github.com/"
-                        >
-                            GitHub
-                        </button>
-                        <button className="btn portfolio-btn"
-                        onClick="location.href='https://github.com/"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div className="portfolio__container-details portfolio__color-container">
-                    <div className="portfolio__img-container">
-                        <img src="../../assets/work2.jpg.jpg" alt="" className='portfolio__img'/>
-                    </div>
-                    <h2 className="portfolio__subtitle portfolio__title">Cyber</h2>
-                    <div className="portfolio__button">
-                        <button className="btn  portfolio-btn"
-                        onClick="location.href='https://github.com/"
-                        >
-                            GitHub
-                        </button>
-                        <button className="btn  portfolio-btn"
-                        onClick="location.href='https://github.com/"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div className="portfolio__container-details portfolio__color-container">
-                    <div className="portfolio__img-container">
-                        <img src="../../assets/work3.jpg" alt="" className='portfolio__img'/>
-                    </div>
-                    <h2 className="portfolio__subtitle portfolio__title">GymTech</h2>
-                    <div className="portfolio__button-container">
-                        <button className="btn  portfolio-btn"
-                        onClick="location.href='https://github.com/"
-                        >
-                            GitHub
-                        </button>
-                        <button className="btn portfolio-btn"
-                        onClick="location.href='https://github.com/"
-                        >
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
+        <div className="container portfolio_container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt=''/>
             </div>
-        </div>
+            <h3>Project 1</h3>
+            <div className="portfolio__item-cta">
+              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
+              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt=''/>
+            </div>
+            <h3>Project 2</h3>
+            <div className="portfolio__item-cta">
+              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
+              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt=''/>
+            </div>
+            <h3>Project 3</h3>
+            <div className="portfolio__item-cta">
+              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
+              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt=''/>
+            </div>
+            <h3>Project 4</h3>
+            <div className="portfolio__item-cta">
+              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
+              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt=''/>
+            </div>
+            <h3>Project 5</h3>
+            <div className="portfolio__item-cta">
+              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
+              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt=''/>
+            </div>
+            <h3>Project 6</h3>
+            <div className="portfolio__item-cta">
+              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
+              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+        </article>        
+      </div>
     </section>
   )
 }

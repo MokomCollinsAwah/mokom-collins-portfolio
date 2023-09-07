@@ -11,7 +11,6 @@ const Home = () => {
             <div className="home__content grid">
                 <Socials/>
                 <div className="home__img"></div>
-
                 <Data/>
             </div>
             <ScrollDown/>

@@ -4,7 +4,8 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: var(--color-primary);
+    color: var(--title-color);
 }
 .nav {
     height: calc(var(--header-height) + 1.5rem);
@@ -13,10 +14,11 @@
     align-items: center;
     column-gap: 1rem;
 }
-.nac__logo,
+
+.nav__logo,
 .nav__toggle {
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
 }
 
 .nav__list {
@@ -41,7 +43,7 @@
 /* ACTIVE LINKS */
 .active-link,
 .nav__link {
-    color: var(--title-color-dark);
+    color: var(--title-color);
 }
 
 
@@ -61,7 +63,7 @@
         bottom: -100%;
         left: 0;
         width: 100%;
-        background-color: var(--body-color);
+        background-color: var(--color-primary);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0,0,0,0.15);
         transition: .3s;
@@ -92,7 +94,7 @@
     }
 
     .nav__close:hover {
-        color: var(--title-color-dark);
+        color: var(--color-primary);
     }
     .nav__toggle {
         font-size: 1.1rem;

@@ -9,16 +9,20 @@ const About = () => {
   return (
     <section className="about section">
         <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">My Introduction</span>     
+        <span className="section__subtitle">Get to know me</span>     
 
         <div className="about__container container grid">
-          <img src={AboutImg} alt="" className="about__img" />
+          <div className='about__me '>
+            <div className="about__me-image">
+              <img src={AboutImg} alt="about me"  />
+            </div>
+          </div>
           <div className="about__data">
             <Info/>
             <p className="about__description">
               Frontend developer. I create pixel perfect webpages and many clients are happy with the project carried out.
             </p>
-            <a href={CV} download="" className="button button-flex">Download CV
+            <a href={CV} download="" className="btn btn__primary">Download CV
               <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
