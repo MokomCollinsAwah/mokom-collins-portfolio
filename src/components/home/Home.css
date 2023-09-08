@@ -1,6 +1,5 @@
 .home__container {
     row-gap: 7rem;
-
 }
 .home__content {
     grid-template-columns: 116px repeat(2, 1fr);
@@ -17,17 +16,16 @@
 
 .home__social-icon {
     font-size: 1.75rem;
-    color: var(--color-primary);
+    color: var(--color-bg-dark);
 }
 .home__social-icon:hover {
-    color: var(--container-color);
+    color: var(--color-bg-variant);
 }
 
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
-    color: var(--container-color);
-
+    color: var(--color-bg-dark);
 }
 
 .home__hand {
@@ -42,7 +40,7 @@
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
-    color: var(--color-primary);
+    color: var(--color-bg-variant);
 }
 
 .home__subtitle::before {
@@ -50,7 +48,7 @@
     position: absolute;
     width: 70px;
     height: 1px;
-    background-color: var(--color-primary);
+    background-color: var(--color-bg-variant);
     left: 0;
     top: 1rem;
 }
@@ -58,6 +56,7 @@
 .home__description {
     max-width: 400px; 
     margin-bottom: var(--mb-3);
+    color: var(--text-color);
 }
 
 .home__img {
@@ -65,7 +64,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 7px var(--color-primary);
+    box-shadow: inset 0 0 0 9px var(--color-bg-variant);
     order: 1;
     justify-self: center;
     width: 300px;
@@ -103,7 +102,7 @@
 }
 
 .home__scroll-name {
-    color: var(--color-primary);
+    color:  var(--color-bg-variant);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -111,7 +110,7 @@
 
 .home__scroll-arrow {
     font-size: 1.25rem;
-    color: var(--color-primary);
+    color: var(--color-bg-variant);
 }
 
 /* BREAKPOINTS */

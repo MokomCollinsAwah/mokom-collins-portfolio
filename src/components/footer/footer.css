@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--color-primary);
+    background-color: var(--color-bg);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -8,7 +8,7 @@
 }
 
 .footer__title, .footer__link {
-    color:var(--title-color);
+    color:var(--color-bg-dark);
 }
 
 .footer__title {
@@ -17,7 +17,7 @@
 }
 
 .footer__link:hover {
-    color: var(--container-color);
+    color: var(--color-bg-variant);
 }
 
 .footer__list {
@@ -35,7 +35,7 @@
 
 .footer__social-link {
     background-color: var(--title-color);
-    color: var(--container-color);
+    color: var(--color-bg-dark);
     font-size: 1.25rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
@@ -43,21 +43,27 @@
 }
 
 .footer__social-link:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-bg-variant);
 }
 
 .footer__social-icon {
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: var(--color-bg-dark);
+}
+
+.footer__social-icon:hover {
+    color: var(--color-bg-variant);
 }
 
 .footer__copy {
     display: block;
     margin-top: 4.5rem;
-    color: var(--title-color);
+    color: var(--color-bg-dark);
     text-align: center;
     font-size: var(--smaller-font-size);
-}/* BREAKPOINTS */
+}
+
+/* BREAKPOINTS */
 /* for large devices */
 @media screen and (max-width: 992px){
     .footer__social-link {

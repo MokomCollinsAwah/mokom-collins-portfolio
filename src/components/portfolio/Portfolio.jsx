@@ -19,7 +19,7 @@ const Portfolio = () => {
             <h3>Project 1</h3>
             <div className="portfolio__item-cta">
               <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
-              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+              <a href="https://dribble.com/Alien_pixels" className='btn' target='_blank' rel="noreferrer">Live Demo</a></div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -28,7 +28,7 @@ const Portfolio = () => {
             <h3>Project 2</h3>
             <div className="portfolio__item-cta">
               <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
-              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
+              <a href="https://dribble.com/Alien_pixels" className='btn' target='_blank' rel="noreferrer">Live Demo</a></div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
@@ -37,35 +37,8 @@ const Portfolio = () => {
             <h3>Project 3</h3>
             <div className="portfolio__item-cta">
               <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
-              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt=''/>
-            </div>
-            <h3>Project 4</h3>
-            <div className="portfolio__item-cta">
-              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
-              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt=''/>
-            </div>
-            <h3>Project 5</h3>
-            <div className="portfolio__item-cta">
-              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
-              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt=''/>
-            </div>
-            <h3>Project 6</h3>
-            <div className="portfolio__item-cta">
-              <a href="http://github.com/MokomCollinsAwah" className='btn'>GitHub</a>
-              <a href="https://dribble.com/Alien_pixels" className='btn btn__primary' target='_blank' rel="noreferrer">Live Demon</a></div>
-        </article>        
+              <a href="https://dribble.com/Alien_pixels" className='btn' target='_blank' rel="noreferrer">Live Demo</a></div>
+        </article>     
       </div>
     </section>
   )
