@@ -64,7 +64,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 9px var(--color-bg-variant);
+    /* box-shadow: inset 0 0 0 9px var(--color-bg-variant); */
     order: 1;
     justify-self: center;
     width: 300px;
@@ -139,7 +139,7 @@
     .home__img {
         width: 250px;
         height: 250px;
-        box-shadow: inset 0 0 0 7px rgb(148 0 211);
+        /* box-shadow: inset 0 0 0 7px rgb(148 0 211); */
     }
     .home__scroll {
         margin-left: 7.5rem;
@@ -160,7 +160,7 @@
         grid-column: 1/3;
     }
     .home__img {
-        box-shadow: inset 0 0 0 7px rgb(148 0 211);
+        /* box-shadow: inset 0 0 0 7px rgb(0 0 211); */
         width: 200px;
         height: 200px;
     }

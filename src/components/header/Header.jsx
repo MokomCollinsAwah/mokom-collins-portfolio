@@ -33,18 +33,6 @@ const Header = () => {
         <nav className="nav container navbar navbar-default navbar-fixed-top">
             <a href="index.html" className="nav__logo">Collins.dev
             </a>
-            <div className="dark__mode ">
-                <input type="checkbox" 
-                className="dark__mode-input" 
-                id='dark__mode-toggle' 
-                onChange={toggleTheme}
-                defaultChecked={selectedTheme === 'dark'}
-                />
-                <label className="dark__mode-label" for='dark__mode-toggle'>
-                    <Sun/>
-                    <Moon/>
-                </label>
-            </div>
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">
                     <li className="nav_item">
@@ -72,12 +60,26 @@ const Header = () => {
                         <i className="uil uil-message nav__icon"></i>Contact
                     </a>
                     </li>
+                    <div className="dark__mode float">
+                            <input type="checkbox" 
+                            className="dark__mode-input" 
+                            id='dark__mode-toggle' 
+                            onChange={toggleTheme}
+                            defaultChecked={selectedTheme === 'dark'}
+                            />
+                            <label className="dark__mode-label" for='dark__mode-toggle'>
+                                <Sun/>
+                                <Moon/>
+                            </label>
+                </div>
                 </ul>
+                
                 <i className="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
             </div>
             <div className="nav__toggle" onClick={()=>  showMenu(!Toggle)}>
                 <i className="uil uil-apps"></i>
             </div>
+            
         </nav>
     </header>
   )

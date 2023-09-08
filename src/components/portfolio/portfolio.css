@@ -1,7 +1,7 @@
 .portfolio_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 .portfolio__item {
@@ -22,10 +22,16 @@
   overflow: hidden;
 }
 
-.portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+.portfolio__project-title {
+  margin: var(--mb-0-25);
   color: var(--color-bg-dark);
   text-align: center;
+}
+
+.portfolio__project-description {
+    margin: var(--mb-0-25);
+    color: var(--text-color);
+    font-weight: var(--font-medium);
 }
 
 .portfolio__item-cta {

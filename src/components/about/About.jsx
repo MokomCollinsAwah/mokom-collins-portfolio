@@ -7,7 +7,7 @@ import Info from './Info';
 
 const About = () => {
   return (
-    <section className="about section">
+    <section className="about section" id='about'>
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">Get to know me</span>     
 
@@ -20,8 +20,11 @@ const About = () => {
           <div className="about__data">
             <Info/>
             <p className="about__description">
-              Frontend developer. I create pixel perfect webpages and many clients are happy with the project carried out.
-            </p>
+            Seasoned professional Software Engineer with expertise in developing and
+            architecting Full-stack applications. Leveraging expertise in ReactJS and proficient
+            in NodeJS for building pixel-perfect UIs and designing robust, and scalable code
+            aligned with good coding principles and patterns.
+          </p>
             <a href={CV} download="" className="btn btn__primary">Download CV
               <svg
                   class="button__icon"
