@@ -58,22 +58,21 @@
 .fade-in-out {
     display: flex;
     align-items: center;
-  }
-  span {
+}
+.fade-in-out span {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     position: absolute;
     left: 4rem;
-  }
-  span.visible {
+}
+.fade-in-out span.visible {
     opacity: 1;
-  }
-  
-  span.hidden {
+}
+
+.fade-in-out span.hidden {
     opacity: 0;
-  }
-  
-  
+}
+
 .home__description {
     max-width: 400px; 
     margin-bottom: var(--mb-3);
