@@ -20,10 +20,9 @@ const About = () => {
           <div className="about__data">
             <Info/>
             <p className="about__description">
-            Seasoned professional Software Engineer with expertise in developing and
-            architecting Full-stack applications. Leveraging expertise in ReactJS and proficient
-            in NodeJS for building pixel-perfect UIs and designing robust, and scalable code
-            aligned with good coding principles and patterns.
+            Experienced software engineer with a strong background in crafting and designing full-stack applications. 
+            Proficient in ReactJS and skilled in NodeJS, specializing in creating visually precise user interfaces 
+            and constructing resilient, scalable code that adheres to best coding practices and architectural patterns.
           </p>
             <a href={CV} download="" className="btn btn__primary">Download CV
               <svg

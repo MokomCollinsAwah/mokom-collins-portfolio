@@ -1,4 +1,5 @@
 import React from 'react'
+import DynamicText from './DynamicText';
 
 export const Data = () => {
   return (
@@ -55,9 +56,9 @@ export const Data = () => {
                   ></path>
         </svg>
     </h1>
-    <h3 className="home__subtitle">FrontEnd Developer</h3>
-    <p className="home__description">Seasoned Professional Software Engineer with expertise in developing and
-architecting Full-stack applications.</p>
+    <h3 className="home__subtitle"><DynamicText/>
+    </h3>
+    <p className="home__description">Experienced software engineer with a strong background in designing and building full-stack applications.</p>
     <a href="#contact" className="btn btn__primary">Say Hello
         <svg
                     class="button__icon"

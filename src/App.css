@@ -49,6 +49,7 @@
   --text-color: #757575;
 }
 
+
 [data__theme='dark'] {
   --color-bg: #1f1f38;
   --color-bg-variant: #4db5ff;

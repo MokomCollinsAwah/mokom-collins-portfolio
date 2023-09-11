@@ -36,23 +36,44 @@
 
 .home__subtitle {
     position: relative;
-    font-size: var(--h3-font-size);
+    font-size: 1.25;
     padding-left: 5.4rem;
-    font-weight: var(--font-normal);
+    font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
     color: var(--color-bg-variant);
+
 }
 
 .home__subtitle::before {
-    content: '';
+    content: 'I\'m a ';
     position: absolute;
-    width: 70px;
+    width: 60px;
     height: 1px;
     background-color: var(--color-bg-variant);
     left: 0;
-    top: 1rem;
+    top: -1rem;
 }
 
+/* FADE IN OUT CODE */
+.fade-in-out {
+    display: flex;
+    align-items: center;
+  }
+  span {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    left: 4rem;
+  }
+  span.visible {
+    opacity: 1;
+  }
+  
+  span.hidden {
+    opacity: 0;
+  }
+  
+  
 .home__description {
     max-width: 400px; 
     margin-bottom: var(--mb-3);
@@ -125,7 +146,7 @@
         height: 26px;
     }
     .home__subtitle {
-        padding-left: 3.75rem;
+        padding-left: 3.5rem;
         margin-bottom: var(--mb-1);
     }
     .home__social__subtitle::before {
