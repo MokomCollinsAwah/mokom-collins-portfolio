@@ -13,7 +13,7 @@ const Socials = () => {
         <a href="https://www.instagram.com/mokomcollinsawah" className="home__social-icon" target='_blank' rel='noreferrer'>
             <i className="uil uil-instagram"></i>
         </a>
-        <a href="https://www.facebook.com/awahcollinsm" className="home__social-icon" target='_blank' rel='noreferrer'>
+        <a href="https://www.facebook.com/mokomcollinsawah" className="home__social-icon" target='_blank' rel='noreferrer'>
             <i className="uil uil-facebook"></i>
         </a>
         <a href="https://www.twitter.com/mokomcollins" className="home__social-icon" target='_blank' rel='noreferrer'>

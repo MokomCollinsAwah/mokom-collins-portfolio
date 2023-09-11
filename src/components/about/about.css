@@ -55,7 +55,7 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
+    padding: 0;
     margin-bottom: var(--mb-2-5);
     color: var(--text-color);
 }
@@ -82,7 +82,7 @@
         justify-content: center;
     }
     .about__description {
-        padding: 0 5rem;
+        padding: 0 4rem;
         margin-bottom: 2rem;
     }
 

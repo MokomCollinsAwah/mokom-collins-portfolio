@@ -20,9 +20,13 @@ const About = () => {
           <div className="about__data">
             <Info/>
             <p className="about__description">
-            Experienced software engineer with a strong background in crafting and designing full-stack applications. 
-            Proficient in ReactJS and skilled in NodeJS, specializing in creating visually precise user interfaces 
-            and constructing resilient, scalable code that adheres to best coding practices and architectural patterns.
+            I'm Mokom Collins Awah, a software developer with over 2+ years of professional experience, 
+            specializing in full-stack development with expertise in JavaScript, 
+            React.js, Next.js, Node.js, MySQL, MongoDB, and PostgreSQL. 
+            I am dedicated to integrating values like integrity, discipline, 
+            excellence, purpose, and courage into my work and I enjoy taking on new challenges 
+            to further my development skills. Outside of work, I values hobbies for maintaining 
+            a healthy work-life balance. I'm open to discussions about new projects and innovative ideas.
           </p>
             <a href={CV} download="" className="btn btn__primary">Download CV
               <svg
