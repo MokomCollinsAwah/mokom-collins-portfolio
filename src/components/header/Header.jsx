@@ -33,7 +33,7 @@ const Header = () => {
     <header className='header'>
         <nav className="nav container navbar navbar-default navbar-fixed-top">
             <a href="index.html" className="nav__logo"> 
-            <img src={logo} alt="logo" className='nav__logo-img' />
+            <img src={logo} alt="Mokom Collins Awah" className='nav__logo-img' />
             Mokom <span style={{ color: '#3366ff', }}>Collins</span>
             </a>
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
